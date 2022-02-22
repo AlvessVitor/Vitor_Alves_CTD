@@ -1,0 +1,39 @@
+/* Importação da fonte utilizada pelo googlefonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: #131313;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: steelblue;
+}
+
+p{
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: yellow;
+    text-align: center;
+}
+
+.media-picture{
+    height: 400px;
+    background-image: url(../img/vingadores.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.review-score{
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
