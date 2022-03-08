@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.desconto {
+    background-color: #1cd1b0;
+    height: 38px;
+    padding: 10px;
+
+}
+
+.titulo-desconto {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.titulo {
+    background-color: #00669f;
+    height: 80px;
+    padding: 13px 0 25px 28px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.container-herois{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.batman {
+    width: 380px;
+    margin-right: 45px;
+    background-color: #f3f3f3;
+    height: 530px;
+    margin-bottom: 40px;
+
+}
+
+.arlequina {
+    margin-left: 45px;
+    width: 380px;
+    height: 530px;
+    background-color: #f3f3f3;
+    margin-bottom: 40px;
+
+}
+
+.cont-batman {
+    width: 380px;
+    height: 380px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+
+}
+
+.cont-arlequina {
+    width: 380px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.nome-heroi{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profile{
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 120px;
+}
+
+.back-card-batman{
+    background-image: url("../img/bg-batman.png");
+    background-size: cover;
+    height: 217.81px;    
+}
+
+.back-card-arlequina{
+    background-image: url("../img/bg-alerquina.png");
+    background-size: cover;
+    height: 217.81px;    
+}
+.amei{
+    margin-top: 17.92px;
+    margin-left: 23.7px;
+}
+
+button{
+    margin-top: 10px;
+    width: 145.34px;
+    height: 54.76px;
+    background-color:#00669F;
+    color: #f3f3f3;
+    font-weight: 400;
+}
+
+button:hover{
+    background-color: #022b42;
+}
+
+.rodape{
+    background-color: #00669f;
+    color: #f3f3f3;
+    height: 51px;
+    padding: 16px 0 16px 28px;
+    margin-top: 40px;
+    
+}
+
+.btn-arlequina{
+    margin-top:27px ;
+}
