@@ -1,0 +1,125 @@
+/* Reset do css, estilos padrão do navegador */
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Importação da fonte utilizada pelo googlefonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Estilicação do cabeçalho */
+
+header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-texto {
+    color: #FFF;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu-sup {
+    display: flex;
+}
+
+.menu-sup li {
+    margin-left: 13px;
+    list-style: none;
+}
+
+.menu-sup li a {
+    display: block;
+    padding: 10px;
+}
+
+.menu-sup li a:hover {
+    color: rgb(206, 206, 206);
+    transition: 0.5s;
+}
+
+.links-menu {
+    color: white;
+    text-align: center;
+}
+
+.verde {
+    color: #39B24A;
+}
+
+.vermelho {
+    color: red;
+}
+
+.branco {
+    color: #FFF;
+}
+
+.img-logo {
+    width: 92px;
+    height: 80px;
+}
+
+/* Conteúdo principal da página */
+.container-principal {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    margin: auto;
+}
+
+/* Menu inferior */
+.menu-inf li {
+    margin-left: 13px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.menu-inf li a {
+    padding: 10px;
+}
+
+.menu-inf li a:hover {
+    color: rgb(206, 206, 206);
+    transition: 0.5s;
+}
+
+.links-menu-inf {
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    justify-content: space-between;
+    padding: 20px 20px 25px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 130px;
+    align-items: center;
+}
