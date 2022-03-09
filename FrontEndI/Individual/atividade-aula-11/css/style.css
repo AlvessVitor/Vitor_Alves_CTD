@@ -1,23 +1,14 @@
 /* Reset do css, estilos padrão do navegador */
-
-body,
-ul,
-li,
-p {
+*{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-size: 1.2rem;
-    font-family: Roboto;
-    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 
 a {
     text-decoration: none;
 }
-
-/* Importação da fonte utilizada pelo googlefonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Estilicação do cabeçalho */
 
@@ -28,6 +19,7 @@ header {
     align-items: center;
     padding: 20px;
     flex-wrap: wrap;
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
 
 }
 
@@ -71,14 +63,17 @@ header {
 
 .verde {
     color: #39B24A;
+    font-size: 24px;
 }
 
 .vermelho {
     color: red;
+    font-size: 24px;
 }
 
 .branco {
     color: #FFF;
+    font-size: 24px;
 }
 
 .img-logo {
@@ -89,9 +84,9 @@ header {
 /* Conteúdo principal da página */
 .container-principal {
     display: flex;
-    justify-content: center;
-    height: 450px;
+    height: 500px;
     margin: auto;
+    justify-content: center;
 }
 
 /* Menu inferior */
@@ -117,9 +112,79 @@ header {
 footer {
     background-color: #222;
     justify-content: space-between;
-    padding: 20px 20px 25px 20px;
+    padding: 35px 20px 25px 20px;
     display: flex;
     flex-direction: row-reverse;
     height: 130px;
     align-items: center;
+}
+
+.titulo-delivery{
+    color:red;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.delivery{
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 490px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardapio{
+    height: 350px;
+    width: 490px;
+    background-color: #FFF;
+    padding: 20px 40px 0 40px;
+    margin-left: 20px;
+
+}
+
+.cardapio-itens{
+    display: flex;
+    justify-content: space-between;
+    height: 219px;
+    padding: 20px 15px 0px 15px;
+    align-items: center;
+
+}
+.top-itens{
+    margin-left: 38px;
+    margin-top: 58px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+li{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.img-ingredientes-pizza{
+    width: 92px ;
+    height: 128px;
+}
+
+.titulo-h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px ;
+}
+
+.flex-item{
+    border-radius: 5px;
+    margin: auto 0;
+    margin-left: 15px;
+}
+
+.menu-inf >li{
+    margin-top: 6px;
 }

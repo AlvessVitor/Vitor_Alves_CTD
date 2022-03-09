@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
+    <title>Pizza&Front</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -16,27 +22,37 @@
             <img class="img-logo" src="./img/logo.svg" alt="Logotipo Pizza&Front">
             <a class="logo-texto" href="#"><span class="verde">Pizza</span><span class="branco">&</span><span
                     class="vermelho">Front</span></a>
-        </div>
+        </div> <!-- Logotipo -->
         <nav class="navegacao-superior">
-            <ul class="menu-sup">
+            <ul class="menu menu-sup">
                 <li><a class="links-menu" href="./index.html">Home</a></li>
                 <li><a class="links-menu" href="./grid1.html">Ranking</a></li>
                 <li><a class="links-menu" href="./grid2.html">Promoção</a></li>
                 <li><a class="links-menu" href="./grid2.html">Contato</a></li>
             </ul>
-        </nav>
+        </nav> <!-- Menu superior -->
     </header>
 
     <main>
         <section class="container-principal">
-            <div class="delivery">
-
+            <div class="flex-item delivery">
+                <h2 class="titulo-h2 titulo-delivery">Envio gratís <span class="branco">comprando</span> 2 pizzas</h2>
             </div>
 
-            <div class="cardapio">
-
+            <div class="flex-item cardapio">
+                <h2 class=" vermelho titulo-h2">Cardápio de pizzas</h2>
+                <h3 class="top-itens">TOP 5</h3>
+                <div class="cardapio-itens">
+                    <ol>
+                        <li>Frango e Catupiry</li>
+                        <li>Hawaiana</li>
+                        <li>Bolonhesa</li>
+                        <li>Fugazzeta</li>
+                        <li>Calabresa</li>
+                    </ol>
+                    <img class="img-ingredientes-pizza" src="./img/pizzafalling.jpg" alt="Pizza ingredientes">
+                </div>
             </div>
-
         </section>
     </main>
 
@@ -47,7 +63,7 @@
                     class="vermelho">Front</span></a>
         </div>
         <nav class="navegacao-inferior">
-            <ul class="menu-inf">
+            <ul class=" menu menu-inf">
                 <li><a class="links-menu-inf" href="./index.html">Home</a></li>
                 <li><a class="links-menu-inf" href="./grid1.html">Ranking</a></li>
                 <li><a class="links-menu-inf" href="./grid2.html">Promoção</a></li>
